@@ -9,8 +9,10 @@ knitr::opts_chunk$set(
   collapse  = TRUE,
   comment   = "#>",
   fig.path  = "man/figures/README-",
-  out.width = "100%",
-  dev       = "ragg_png"
+  fig.align = "center",
+  out.width = "80%",
+  dev       = "ragg_png",
+  dpi       = 132
 )
 ```
 
@@ -34,7 +36,7 @@ remotes::install_github("teunbrand/myplotdefaults")
 
 This is a basic example which shows you how to solve a common problem:
 
-```{r example}
+```{r theme_example}
 library(myplotdefaults)
 library(ggplot2)
 
@@ -51,5 +53,3 @@ set_defaults(ink_colour = "white", paper_colour = "black",
              shadow_colour = "grey10")
 p + ggtitle("Paper and shadow colour set background and gridline colours")
 ```
-
-
