@@ -70,7 +70,7 @@ bright_colours <- c(
 
 pal_fire <- function(direction = 1) {
   direction <- sign(direction)
-  colours   <- fire_palette
+  colours   <- fire_colours
   if (direction < 0) {
     colours <- rev(colours)
   }
