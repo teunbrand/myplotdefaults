@@ -24,17 +24,11 @@ set_my_geom_defaults(
 )
 }
 \arguments{
-\item{ink_colour}{A \code{character(1)} for colours.}
-
-\item{paper_colour}{A \code{character(1)} for colours.}
-
-\item{shadow_colour}{A \code{character(1)} for colours.}
+\item{ink_colour, paper_colour, shadow_colour}{A \code{character(1)} for colours.}
 
 \item{font}{A \code{character(1)} with a font family name.}
 
-\item{small_text}{A \code{numeric(1)} indicating font sizes.}
-
-\item{big_text}{A \code{numeric(1)} indicating font sizes.}
+\item{small_text, big_text}{A \code{numeric(1)} indicating font sizes.}
 }
 \value{
 For \code{my_geom_defaults}: a \code{list} with defaults. For

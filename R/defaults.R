@@ -9,6 +9,7 @@
 #' @export
 #'
 #' @examples
+#' NULL
 set_defaults <- function(
   ink_colour    = "#333333",
   paper_colour  = NA,

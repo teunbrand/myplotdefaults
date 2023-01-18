@@ -12,7 +12,8 @@ Description: This is simply a repo to keep track of my plot defaults instead of
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.2
+RoxygenNote: 7.2.0
 Imports: 
     ggplot2,
+    scales,
     systemfonts
